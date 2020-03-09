@@ -181,5 +181,5 @@ print(device)
 # parameters and buffers to CUDA tensors
 net.to(device)
 
-# Remember that you will have to send the inputs and targets at every step to the GPU too.
+#Remember that you will have to send the inputs and targets at every step to the GPU too.
 inputs, labels = data[0].to(device), data[1].to(device)
